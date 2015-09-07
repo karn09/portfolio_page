@@ -1,0 +1,78 @@
+.box {
+	border-style: solid;
+	border: 1px solid black;
+	margin: 5px 5px 5px 5px;
+}
+.intro {
+    position: relative;
+    padding-top: 20%;
+    padding-bottom: 20%;
+}
+.intro > h2 {
+	margin-top: -50px;
+}
+
+.first-section {
+    height: 855px;  
+    padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    padding-bottom: 50px;
+    text-align: center;
+    background-color: #A9A9A9;
+    background-size: cover;
+}
+
+.second-section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: url('../img/NYC-Skyline.jpg') no-repeat center center fixed;
+    background-size: cover;
+    height: 100%;
+}
+
+.second-intro {
+    position: relative;
+    padding-top: 15%;
+    padding-bottom: 20%;
+}
+.second-intro > h2 {
+    margin-top: -100px;
+}
+
+.second-intro-right {
+    position: relative;
+    padding-top: 25%;
+    padding-bottom: 100px;
+    opacity: .6;
+}
+.second-intro-right > h2{
+    margin-top: 10px;
+}
+.second-intro > .panel {
+    margin-bottom: -100px;
+}
+
+.third-section {
+    padding-top: 70px;
+    padding-bottom: 50px;
+    background-color: dimgrey;
+    background-size: cover;
+    height: 100%;
+}
+.spacer {
+    margin-top: 40px;
+}
+
+.about {
+    padding-top: 10%;
+    padding-bottom: 20%;
+    background-color: lightgray;
+    background-size: cover;
+    height: 100%
+}
+
+.about > h2 {
+    margin-top: 40px;
+}
+.large {
+    font-size: 1000%;
+}
